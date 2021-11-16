@@ -48,7 +48,7 @@ class RegistrationForm extends React.Component {
       return (
          <Grid
             textAlign="center"
-            style={{ height: "100vh" }}
+            style={{ height: "70vh" }}
             verticalAlign="middle"
          >
             <Grid.Column style={{ maxWidth: 450 }}>
