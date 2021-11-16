@@ -95,20 +95,19 @@ const HomepageLayout = () => (
         <Grid.Row>
           <Grid.Column width={8}>
             <Header as="h3" style={{ fontSize: "2em" }}>
-              We Help Companies and Companions
+              ExamTime - A place of virtual Classroom
             </Header>
             <p style={{ fontSize: "1.33em" }}>
-              We can give your company superpowers to do things that they never
-              thought possible. Let us delight your customers and empower your
-              needs... through pure data analytics.
+              A Exam conducting platform with all the high end security and inbuilt plagirism checker , platform for teachers and students to meet 
+              and attend to complete exams and other assignments in Atal Bihari Vajpayee Indian Institute Of Information Technology and Management Gwalior.
             </p>
-            <Header as="h3" style={{ fontSize: "2em" }}>
+            {/* <Header as="h3" style={{ fontSize: "2em" }}>
               We Make Bananas That Can Dance
             </Header>
             <p style={{ fontSize: "1.33em" }}>
               Yes that's right, you thought it was the stuff of dreams, but even
               bananas can be bioengineered.
-            </p>
+            </p> */}
           </Grid.Column>
           <Grid.Column floated="right" width={6}>
             <Image
