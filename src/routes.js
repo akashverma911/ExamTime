@@ -1,3 +1,4 @@
+/*Routing file which tell about all the specific routes of the website */
 import React from "react";
 import { Route } from "react-router-dom";
 import Hoc from "./hoc/hoc";
