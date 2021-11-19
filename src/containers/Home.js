@@ -1,3 +1,4 @@
+/* Home page which will be presented at the time of / route when the user is not logged in  */
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import homepageimg from "../assets/Homepageimage.svg"
