@@ -1,3 +1,4 @@
+/* Page which contains all the details regarding the login page and handels login authentication information*/
 import React from "react";
 import {
   Button,
@@ -36,11 +37,12 @@ class LoginForm extends React.Component {
     return (
       <Grid
         textAlign="center"
-        style={{ height: "100vh" }}
+        style={{ height: "70vh" , padding:"compact"}}
+
         verticalAlign="middle"
       >
         <Grid.Column style={{ maxWidth: 450 }}>
-          <Header as="h2" color="teal" textAlign="center">
+          <Header as="h2" color="black" textAlign="center">
             Log-in to your account
           </Header>
           {error && <p>{this.props.error.message}</p>}
@@ -69,7 +71,7 @@ class LoginForm extends React.Component {
                 />
 
                 <Button
-                  color="teal"
+                  color="black"
                   fluid
                   size="large"
                   loading={loading}

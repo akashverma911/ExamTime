@@ -1,3 +1,4 @@
+/* SignUp page which takes all the data of the new user and establishes them as teacher or students*/ 
 import React from "react";
 import {
    Button,
@@ -48,11 +49,11 @@ class RegistrationForm extends React.Component {
       return (
          <Grid
             textAlign="center"
-            style={{ height: "100vh" }}
+            style={{ height: "70vh" }}
             verticalAlign="middle"
          >
             <Grid.Column style={{ maxWidth: 450 }}>
-               <Header as="h2" color="teal" textAlign="center">
+               <Header as="h2" color="black" textAlign="center">
                   Signup to your account
                </Header>
                {error && <p>{this.props.error.message}</p>}
@@ -104,7 +105,7 @@ class RegistrationForm extends React.Component {
                            <option value='teacher'>Teacher</option>
                         </select>
                         <Button
-                           color="teal"
+                           color="black"
                            fluid
                            size="large"
                            loading={loading}

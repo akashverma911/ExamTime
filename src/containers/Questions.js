@@ -1,3 +1,4 @@
+/* File that contains questions input fields and formate connected to  QuestionForm page*/
 import React from 'react';
 import { Steps, Button, message } from 'antd';
 
