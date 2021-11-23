@@ -17,9 +17,9 @@ export default function About() {
                   effortlessly. Teachers can post their test/quiz in the application which will be
                   stored in the database.Student can submit the test and view their result in real
                   time.
-                  laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-                  Laborum, voluptas natus?
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
+                  In frontend our application used the REACT which is the most used
+                  javascript library. Apart from it HTML, CSS and JAVASCRIPT was also used in
+                  frontend. Qui
                   laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
                   Laborum, voluptas natus?
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
