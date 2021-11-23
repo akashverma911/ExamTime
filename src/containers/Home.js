@@ -21,6 +21,7 @@ const getWidth = () => {
   const isSSR = typeof window === "undefined";
   return isSSR ? Responsive.onlyTablet.minWidth : window.innerWidth;
 };
+//responsive home page so that it can be used in phone
 class DesktopContainer extends Component {
   state = {};
   hideFixedMenu = () => this.setState({ fixed: false });
