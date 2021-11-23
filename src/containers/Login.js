@@ -18,7 +18,7 @@ class LoginForm extends React.Component {
     username: "",
     password: ""
   };
-
+  
   handleChange = e => {
     this.setState({ [e.target.name]: e.target.value });
   };
@@ -45,7 +45,7 @@ class LoginForm extends React.Component {
           <Header as="h2" color="teal" textAlign="center">
             Log-in to your account
           </Header>
-          {/* {error && <p>{this.props.error.message}</p>} */}
+         
 
           <React.Fragment>
             <Form size="large" onSubmit={this.handleSubmit}>
@@ -109,3 +109,4 @@ export default connect(
   mapStateToProps,
   mapDispatchToProps
 )(LoginForm);
+//login form
