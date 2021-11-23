@@ -90,7 +90,7 @@ function AssignmentCreate(props) {
         </Form>
     )
 }
-
+//redux
 const mapStateToProps = state => {
     return {
         token: state.auth.token,
