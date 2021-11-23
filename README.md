@@ -55,4 +55,23 @@ COVID-19 pandemic. The institute wants their students not to lag behind with the
 They wish to develop a software for students, where they conduct their test/assessment
 online.This will help students to boost their knowledge and maintain competition among them.
 
+Section 2 - Feasibility Report
+1. Overview of the Existing Systems and Technologies
+Our system resembles most of Google Forms which is a famous and popular platform. Google
+form supports functions like online quizzes and surveys. Our application too supports real time
+quizzes, in addition to it our application will be more suited to educational institutes ,where
+teachers and students will have separate user systems. Students will have their separate
+profile.
+2. Scope of the Project
+Main actors of this system:-
+● School/University and other educational institutes
+○ Signup/Login
+○ Post test online for students
+○ Maintain record of students data
+● Students
+○ Signup/Login
+○ Do the test/assessment in real time
+○ Maintain their profile which includes test results
+
+
 
