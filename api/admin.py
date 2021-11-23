@@ -1,3 +1,4 @@
+# changes ui for admin page
 from django.contrib import admin
 
 from .models import Choice, Question, Assignment, GradedAssignment
