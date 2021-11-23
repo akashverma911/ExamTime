@@ -266,3 +266,23 @@ Description:
 We expect proper integration of the Database with User Profile thereby displaying all the correct details of the logged-in user .
 For testing this we made multiple students and teachers accounts and then checked the profile page of each logged in id and verified whether the database has integrated properly or not that is whether the details displayed on the profile page are correct or not.
 Since these related modules are working fine together, this test case is passed.
+
+SECTION 4: SYSTEM TESTING
+System testing of software or hardware is testing conducted on a complete, integrated system to evaluate the system's compliance with its specified requirements using SRS. While comparing against the requirements, various scenarios have been generated to know if the there is any bug or not, and various bugs have been found as follows:
+
+Scenario 1:
+On launching  the website on chrome browser,  the website crashed.
+The minimum chrome version needed to run the app is chrome 2011, otherwise several features written in json format would not be interpreted by the older version of the browser
+Error found:
+Bug 1 was found during this testing. The app ran fine on newer browsers but slowed down and omitted a few features of the website as well.
+
+Scenario 2:
+Website crashed on launching the website on an offline PC.
+On launching the website on a PC which is not connected to the internet error message was throw and expected toast message was not displayed 
+Errors found:
+This scenario was found during system testing and the website worked fine with PC’s connected to the internet
+
+Scenario 3:
+Website crashed while trying to login 2 accounts on the same browser
+Error found:
+This scenario was found during system testing when a user tried to login 2 accounts in the website via the same browser . This was not like a bug but more like a feature added by us in order to stop plagiarism , Website worked fine when the user tried to login the website and threw only one account per browser.
