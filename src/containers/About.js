@@ -11,6 +11,7 @@ export default function About() {
                   apps.
                </h1>
                <p className="mb-8 leading-relaxed">
+                  Corona has confined us to our home. Work from home is the new normal.
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
                   laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
                   Laborum, voluptas natus?
