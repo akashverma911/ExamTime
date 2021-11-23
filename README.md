@@ -93,3 +93,142 @@ Processor- Intel i5 9100F
 Ram - 16gb Laptop Ram
 Graphics Card- 6gb 1660Ti
 Operating System- Window 10
+
+SECTION 2: UNIT TESTING
+Since we are working on a web application, Unit tests were created as screenshots of all the visible interfaces. Each minute component has been checked for its function for e.g. every button’s activity has been captured and shown as a test case.
+TEST CASES
+Logout page
+Successful Logout - 
+On clicking on the logout button the user successfully logs out of his profile .
+
+Login Page
+
+Empty field
+If any of the fields is empty then the following Toast message is displayed, and login fails.
+
+
+
+Unregistered Username
+If the username entered is unregistered then a corresponding toast message is displayed and the login fails.
+
+
+
+Incorrect Password
+If the password entered is incorrect then a corresponding toast message is displayed and the login fails.
+
+
+
+Successful Login
+Clicking the login button after entering a registered email address and a valid password, logs in the user successfully and directs her to the main screen.
+
+
+Create a new account link
+Tapping on this link directs the user to the register screen.
+
+
+ 		           
+Unsuccessful login
+In case of failure in login due to technical errors, a toast message is displayed with an appropriate reason.
+
+
+SignUp page
+
+Empty field
+If any of the fields is empty then the following Toast message is displayed, and email registration fails.
+
+    
+
+Wrong email format
+If the email entered is invalid then a corresponding toast message is displayed and the registration fails.
+
+
+
+Already registered email
+If the email entered is already registered then a corresponding toast message is displayed and the registration fails.
+
+            
+
+Unmatching Passwords
+If the passwords entered in the “password” and “confirm password” fields do not match, then a corresponding toast message is displayed and registration fails.
+
+
+Successful Registration
+Clicking the Register button after entering all valid details, registers the user successfully and directs him/her to the create account screen.
+
+
+
+
+
+Assignment Create
+
+Empty field
+If any of the fields is empty then the following Toast message is displayed, and assignment creation fails.
+     
+
+
+Incorrect input formats
+If the format of the input in assignment creation is incorrect, a toast message is displayed.
+               
+
+Successful Assignment Creation
+Clicking the Save button after entering valid details, saves theAssignment is  successfully created.
+
+      
+
+Unsuccessful Assignment creation
+In case of failure in assignment creation due to technical errors, a toast message is displayed with an appropriate reason.
+
+
+
+Assignment List Page
+
+
+Individual Assignment Redirect Failure
+On clicking on the required Assignment website fails to redirect to the required assignment details page.
+
+Individual Assignment Redirect Success
+On clicking on the required Assignment website successfully redirects to the required assignment details page.
+
+
+
+Assignment Detail
+
+Assignment Detail page Successful Buffer 
+On clicking on the required assignment on the Assignment List Page  required Assignment web page opens up.
+
+
+
+
+User Profile page
+
+Display details
+The user details are fetched from the firebase and displayed on the screen.
+
+
+
+
+Edit Profile button
+Tapping on the button directs the user to the Update Profile screen.
+
+
+
+
+
+UPDATE PROFILE SCREEN
+
+Empty field
+If any of the fields is empty then the following Toast message is displayed, and profile updation fails.
+
+    
+
+
+Successful Updation
+Clicking the Save button after entering valid details, saves the user details successfully and directs the user to the user profile screen with updated details.
+
+
+
+Result page
+
+Results Displayed Successfully 
+Results for the specified assignment exam are displayed successfully with all the scores and graphs.
+
