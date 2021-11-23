@@ -232,3 +232,37 @@ Result page
 Results Displayed Successfully 
 Results for the specified assignment exam are displayed successfully with all the scores and graphs.
 
+SECTION 3: INTEGRATION TESTING
+Integration testing, also known as integration and testing, is a software development process in which program units are combined and tested as groups in multiple ways. In this context, a unit is defined as the smallest testable part of an application.
+In this section, Integration testing has been performed by considering different modules together to see how the module works together.
+COUPLING
+Coupling is the degree of interdependence between software modules; a measure of how closely connected two routines or modules are; the strength of the relationships between modules.
+TEST CASE 1
+Description:
+We expect that as soon as an email is registered by one user, it should become unavailable for all other users registering currently.
+Two users registering together with the same email address experience instant unavailability in the email address if the other user taps the register button first.
+Since these related modules are working fine together, this test case is passed.
+TEST CASE 2
+Description:
+We expect that as soon as an username is registered by one user, it should become unavailable for all other users registering currently.
+Two users registering together with the same username experience instant unavailability in the username if the other user taps the register button first.
+Since these related modules are working fine together, this test case is passed.
+
+
+TEST CASE 3
+Description:
+We expect that as soon as the assignment is posted by the teacher it gets displayed with all the required details to the students with no latency since any delay will cause loss of time to the students and vice versa as soon as the student submits the assignments it should get posted to the teacher with no latency and the results of the respective student should be announced in the result page.
+For testing this we made 3 accounts 2 accounts of students and 1 account of a teacher and checked simultaneously while keeping all the 3 laptops side by side to check the response time and found that latency was quite low thereby causing no harm in time to the students.
+Since these related modules are working fine together, this test case is passed.
+
+TEST CASE 4
+Description:
+We expect proper integration of the Database with the Result page of each student profile thereby displaying the correct results on the result page of the individual profile , with all the true scores of the respective student . 
+For testing this we made multiple students accounts and gave a demo test through each of the student id and checked if the results shown in the result page were truly the result of the respective student or not .
+Since these related modules are working fine together, this test case is passed.
+
+TEST CASE 5
+Description:
+We expect proper integration of the Database with User Profile thereby displaying all the correct details of the logged-in user .
+For testing this we made multiple students and teachers accounts and then checked the profile page of each logged in id and verified whether the database has integrated properly or not that is whether the details displayed on the profile page are correct or not.
+Since these related modules are working fine together, this test case is passed.
