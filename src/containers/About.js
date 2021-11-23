@@ -19,7 +19,8 @@ export default function About() {
                   time.
                   In frontend our application used the REACT which is the most used
                   javascript library. Apart from it HTML, CSS and JAVASCRIPT was also used in
-                  frontend. Qui
+                  frontend. In the backend we have used DJANGO, the python backend
+                  framework. Thus making our site secure and easy to maintain.
                   laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
                   Laborum, voluptas natus?
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
