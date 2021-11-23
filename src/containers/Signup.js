@@ -30,11 +30,9 @@ class RegistrationForm extends React.Component {
       let choiceval=false
       if(isstudent==="student")
       choiceval=true
-      // console.log(isstudent)
-      // console.log(choiceval)
       this.props.signup(username, email, password1, password2, choiceval);
    };
-
+   
 
    handleChange = e => {
       this.setState({ [e.target.name]: e.target.value });
@@ -46,6 +44,7 @@ class RegistrationForm extends React.Component {
       if (token) {
          return <Redirect to="/" />;
       }
+      // we are redirected to home page
       return (
          <Grid
             textAlign="center"
