@@ -44,7 +44,7 @@ function AssignmentCreate(props) {
         setredirectToReferrer(true);
     };
 
-    const questions = [];
+    const questions = []; // this will contain all question as a list
     for (let i = 0; i < formCount; i += 1) {
         questions.push(
             <Hoc key={i}>
