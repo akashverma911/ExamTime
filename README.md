@@ -286,3 +286,31 @@ Scenario 3:
 Website crashed while trying to login 2 accounts on the same browser
 Error found:
 This scenario was found during system testing when a user tried to login 2 accounts in the website via the same browser . This was not like a bug but more like a feature added by us in order to stop plagiarism , Website worked fine when the user tried to login the website and threw only one account per browser.
+
+SECTION 5: FOUND AND FIXED BUGS
+In this section, the bugs we found during the first execution of test cases are listed. Also the fixes for bugs are listed. All bugs listed here are fixed.
+
+BUG 1
+Description:  Our application was not showing sign in errors when wrong authorization was made on the login page.
+Fix:
+ 
+
+
+BUG 2
+Description: Website was not redirecting to results section of profile page on submitting the test. 
+Fix:
+
+
+BUG 3
+Description: Website was not redirecting to Assignment List Page on creating the Test
+Fix: 
+
+
+BUG 4
+Description:  Details of individual Assignment on Assignments List page was not showing teachers name who assigned the work.
+Fix:
+
+BUG 5
+Description:Graded Assignment List in User Profile was not showing the details of the scores in “Latest Showing First” fashion.
+Fix: 
+
