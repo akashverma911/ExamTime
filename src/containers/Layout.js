@@ -1,3 +1,4 @@
+/* This File defines the layout of the containers and elemnets in the web application */
 import React from "react";
 import {
    Container,
