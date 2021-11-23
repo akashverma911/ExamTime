@@ -1,3 +1,4 @@
+/* Page which contains all the details regarding the login page and handels login authentication information*/
 import React from "react";
 import {
   Button,
