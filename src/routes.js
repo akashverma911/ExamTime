@@ -16,6 +16,7 @@ const BaseRouter = () => (
   <Hoc>
     <Route path="/login" component={Login} />
     <Route path="/signup" component={Signup} />
+      // id is unique for a user
     <Route path="/profile/:id" component={Profile} />
     <Route exact path="/" component={Home} />
     <Route exact path="/list" component={AssignmentList} />
