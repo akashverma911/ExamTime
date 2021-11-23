@@ -13,8 +13,10 @@ export default function About() {
                <p className="mb-8 leading-relaxed">
                   Corona has confined us to our home. Work from home is the new normal.
                   ‘Exam-time’ is a web application that works with a centralized network of
-                   Schools/Institutes. It helps teachers to build their assignments easily and
-                   effortlessly.
+                  Schools/Institutes. It helps teachers to build their assignments easily and
+                  effortlessly. Teachers can post their test/quiz in the application which will be
+                  stored in the database.Student can submit the test and view their result in real
+                  time.
                   laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
                   Laborum, voluptas natus?
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
