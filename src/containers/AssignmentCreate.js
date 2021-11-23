@@ -6,7 +6,7 @@ import Hoc from "../hoc/hoc";
 import { createASNT } from "../store/actions/assignments";
 import { PlusOutlined, CloseOutlined } from '@ant-design/icons';
 import { Redirect } from "react-router-dom";
-
+//assignment create js file for creating assignments, authorized to teachers only
 function AssignmentCreate(props) {
 
     const [formCount, setFormCount] = useState(0);
