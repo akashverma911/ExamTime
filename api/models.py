@@ -1,3 +1,4 @@
+# contains models datatypes for assignments related queries
 from django.db import models
 from users.models import User
 
