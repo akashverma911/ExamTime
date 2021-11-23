@@ -1,3 +1,4 @@
+/* File which will shows the page which tells about the existing assignments which are currently active */
 import React from "react";
 import { connect } from "react-redux";
 import { Card, Loader } from 'semantic-ui-react'
