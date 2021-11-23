@@ -1,3 +1,4 @@
+/* File that contains code regarding creating of new assignment creation */
 import React, { useEffect, useState } from "react";
 import { connect } from "react-redux";
 import { Form, Input, Button, Divider, message } from "antd";
