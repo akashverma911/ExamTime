@@ -1,3 +1,4 @@
+// Contains reducers for graded assignments
 import * as actionTypes from "../actions/actionTypes";
 import { updateObject } from "../utility";
 
