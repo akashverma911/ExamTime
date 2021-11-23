@@ -36,6 +36,7 @@ class AssignmentList extends React.PureComponent {
             </Card.Group>
         );
     }
+    //displayed assignments as cards having its title and author
 
     render() {
         console.log(this.props.assignments)
