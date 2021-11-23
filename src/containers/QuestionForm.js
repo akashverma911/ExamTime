@@ -1,3 +1,4 @@
+/* File that contains the details regarding question form creation in Assignment Create page and all the formatting related to same*/
 import { Form, Input, Button } from 'antd';
 import { MinusCircleOutlined, PlusOutlined } from '@ant-design/icons';
 import React from 'react';
