@@ -1,3 +1,4 @@
+# This File sets up the base enviornment for the Django framwork for development by implementing the concept of middleware
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
