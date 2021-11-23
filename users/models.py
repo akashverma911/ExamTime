@@ -1,3 +1,4 @@
+# Models or datatpes variables reated to users of application
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 
