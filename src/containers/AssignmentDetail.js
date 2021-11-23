@@ -1,3 +1,4 @@
+/* File which tells about the details of individual assignment of assignmentList page*/
 import React, { Component } from 'react'
 import { connect } from "react-redux";
 import { Card, Skeleton, message } from 'antd';
