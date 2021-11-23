@@ -1,3 +1,4 @@
+/* SignUp page which takes all the data of the new user and establishes them as teacher or students*/ 
 import React from "react";
 import {
    Button,
