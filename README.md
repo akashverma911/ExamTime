@@ -13,4 +13,8 @@ remote and digital. Exams play an important role in our education system and a n
 in giving students the correct marks. Scraping exams in higher education is not an option.
 Online tests keep the momentum of the child learning and ensure his/her learning doesn't stop.
 
+Advantage of school system:
+When teachers interact with students in classes, not all students try to answer the question,
+making it difficult for teachers to assume whether students have understood the topic or not.
+
 
