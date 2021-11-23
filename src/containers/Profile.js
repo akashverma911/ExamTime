@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import Result from "../components/Result";
 import { getGradedASNTS } from "../store/actions/gradedAssignments";
 import Hoc from "../hoc/hoc";
-
+// profile contains student's performance latest first.
 class Profile extends React.PureComponent {
     componentDidMount() {
         if (this.props.token !== undefined && this.props.token !== null) {
