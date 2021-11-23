@@ -1,3 +1,4 @@
+/* This File contains all commands and code pertaining to Profile Page of the Website */
 import React from "react";
 import { List, Skeleton } from "antd";
 import { connect } from "react-redux";
