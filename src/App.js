@@ -1,3 +1,4 @@
+/*Main file from where codes start all the base routes are established here and react components are declared and imported */
 import React, { Component } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { connect } from "react-redux";
