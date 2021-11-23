@@ -22,7 +22,6 @@ function AssignmentCreate(props) {
 
     const onFinish = values => {
         message.success("Assignment Created!");
-        //   console.log('Received values of form:', values);
         const qq = Object.values(values.questions)
         const aa = Object.values(values.answers)
         const cc = Object.values(values.choices)
@@ -62,7 +61,7 @@ function AssignmentCreate(props) {
         );
     }
     if (redirectToReferrer === true) {
-        return <Redirect to={`/list/`} />;
+        return <Redirect to={`/list/`} />; // after creating the assignment we redirect our page to assignment list menu.
     }
     return (
 
