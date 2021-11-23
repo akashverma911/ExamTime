@@ -1,3 +1,4 @@
+# File contains the code of integration od urls.py and serializers.py as well as Models.py for display or output
 from rest_framework import viewsets
 from django.shortcuts import render
 
