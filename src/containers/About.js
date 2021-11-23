@@ -12,7 +12,9 @@ export default function About() {
                </h1>
                <p className="mb-8 leading-relaxed">
                   Corona has confined us to our home. Work from home is the new normal.
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
+                  ‘Exam-time’ is a web application that works with a centralized network of
+                   Schools/Institutes. It helps teachers to build their assignments easily and
+                   effortlessly.
                   laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
                   Laborum, voluptas natus?
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
