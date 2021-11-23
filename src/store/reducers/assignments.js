@@ -1,4 +1,4 @@
-// Reducer are there to manage state in an application
+// Reducer are there to manage state in an application. This file contains reducers
 import * as actionTypes from "../actions/actionTypes";
 import { updateObject } from "../utility";
 
